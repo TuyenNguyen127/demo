@@ -1,0 +1,16 @@
+import '../../../core/app_export.dart';
+
+/// This class is used in the [button_item_widget] screen.
+class ButtonItemModel {
+  ButtonItemModel({
+    this.text,
+    this.id,
+  }) {
+    text = text ?? "Create request";
+    id = id ?? "";
+  }
+
+  String? text;
+
+  String? id;
+}
